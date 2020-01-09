@@ -1,5 +1,5 @@
 {
-  "name": "test-kanban-board",
+  "name": "kanban-board-test",
   "version": "1",
   "main": "index.js",
   "author": "SQLPowerUser",
@@ -7,6 +7,10 @@
   "scripts": {
     "dev": "webpack-dev-server --history-api-fallback --inline --progress",
     "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SQLPowerUser/kanban-board-test.git"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
